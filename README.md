@@ -1,7 +1,11 @@
 IBM Project
+
 Name : Bipin Rupadiya
+
 Email: Bipin.Rupadiya@oshwaleducationtrust.org
+
 smartinternz email : NM2023sb02497@smartinternz.com
+
 College: shri jaysukhlal vadhar institute of management studies
 
 Badges URL:
