@@ -1,0 +1,15 @@
+
+kaggle link:
+
+https://www.kaggle.com/datasets/arbethi/diabetic-retinopathy-level-detection?select=preprocessed+dataset
+
+
+
+Clone kaggle in google colab:
+
+!pip install -q kaggle
+!mkdir ~/.kaggle # creating a kaggle directory
+!cp kaggle.json ~/.kaggle/  # copying json file to folder
+!chmod 600 ~/.kaggle/kaggle.json  # changing the permissions to json
+!kaggle datasets download -d arbethi/diabetic-retinopathy-level-detection
+!unzip diabetic-retinopathy-level-detection.zip
