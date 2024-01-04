@@ -18,4 +18,7 @@ https://www.credly.com/badges/b776584d-c22c-4751-b98c-e9420b652035/public_url
 Drive Link:
 https://drive.google.com/drive/folders/1_fM_23-58ItoKUScVdk-SKXlbNICOcU-?usp=sharing
 
+Dataset
+https://www.kaggle.com/datasets/arbethi/diabetic-retinopathy-level-detection/data
+
 
