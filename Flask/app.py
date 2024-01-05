@@ -18,12 +18,12 @@ def upload():
         basepath=os.path.dirname(__file__)
         filepath=os.path.join(basepath,'uploads',f.filename)
         f.save(filepath)
-        img=image.load_img(filepath,target_size=(64,64))
+        img=image.load_img(filepath,target_size=(120,120))
         x=image.img_to_array(img)
         x=np.expand_dims(x,axis=0)
         pred=np.argmax(model.predict(x),axis=1)
         index=['0','1','2','3','4']
-        text="The Classified Animal is : " +str(index[pred[0]])
+        text="The Classified image is Diabetic Retina: " +str(index[pred[0]])
     return text
 
 if __name__=='__main__':
